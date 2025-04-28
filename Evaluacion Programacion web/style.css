@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    font-family: 'Roboto';
+}
+body{
+    background-image: url(images/Background.jpg);
+    padding: 0 80px 0 80px;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 88.1%;
+    position: fixed;
+}
+.navbar a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar li{
+    list-style: none;
+    font-weight: 500;
+}
+.navbar ul{
+    display: flex;
+
+    gap: 15%;
+}
+.logo{
+    width: 40%;
+   height: auto;
+}
+.banner{
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+.banner img{
+    width: 100%;
+}
+.video{
+    background-color: rgba(0, 0, 0, 0.459);
+    display: grid;
+    place-items: center;
+}
+h1{
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+.fechas{
+    display: flex;
+    gap: 20px;
+    border-width: 10px;
+    border: solid;
+    border-color: rgb(247, 95, 95);
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+.dia{
+    background-color: rgb(247, 95, 95);
+    padding: 100px 10px 100px 10px;
+}
+.mapa{
+    background-color: black;
+    padding: 10px;
+}
+.titu{
+    color: white;
+    padding: 100px 10px 100px 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    margin-left: 20px;
+}
+.detalle{
+    color: white;
+    padding: 100px 10px 100px 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+#BIBLIOGRAFIA{
+    color: white;
+    font-weight: 400;
+    font-size: 2em;
+    background-color: rgb(247, 95, 95);
+}
+.contenido{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-color: rgb(247, 95, 95);
+    border-style: solid;
+}
+.foto img{
+    width: 600px;
+    height: auto;
+    padding: 10px;
+}
+.texto h2{
+    text-align: center;
+    margin-right: 10px;
+    background-color: rgb(247, 95, 95);
+}
+.texto strong{
+    color:  rgb(247, 95, 95);
+}
+#DISCOGRAFIA{
+    color: white;
+    font-weight: 400;
+    font-size: 2em;
+    background-color: black;
+}
+.con-discografia{
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 40px 0 40px 0;
+}
+.primero{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.segundo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.primero img{
+    height: 200px;
+    width: auto;
+    filter: grayscale(100%)blur(2px);
+}
+.segundo img{
+    height: 200px;
+    width: auto;
+    filter: grayscale(100%)blur(2px);
+}
+.primero img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    transition: filter 0.5s ease;
+}
+.segundo img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    transition: filter 0.5s ease;
+}
+  
