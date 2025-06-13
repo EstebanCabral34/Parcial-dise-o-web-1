@@ -9,6 +9,16 @@ body{
 a{
     text-decoration: none;
 }
+h1{
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+h2{
+    color: white;
+    font-weight: 400;
+    font-size: 2em;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -47,7 +57,6 @@ a{
     padding: 10px;
     width: 150px;
    height: 35px;
-   
 }
 .banner{
     display: grid;
@@ -61,11 +70,6 @@ a{
     background-color: rgba(0, 0, 0, 0.459);
     display: grid;
     place-items: center;
-}
-h1{
-    font-weight: 400;
-    background-color: black;
-    color: white;
 }
 .fechas{
     display: flex;
@@ -109,10 +113,7 @@ h1{
     height: 100px;
     font-weight: bold;
 }
-#BIBLIOGRAFIA{
-    color: white;
-    font-weight: 400;
-    font-size: 2em;
+#BIBLIOGRAFIA,#CONTACTO{
     background-color: rgb(247, 95, 95);
 }
 .contenido{
@@ -137,55 +138,28 @@ h1{
     color:  rgb(247, 95, 95);
 }
 #DISCOGRAFIA{
-    color: white;
-    font-weight: 400;
-    font-size: 2em;
     background-color: black;
 }
 .con-discografia{
     background-color: rgba(0, 0, 0, 0.459);
     padding: 40px 0 40px 0;
 }
-.primero{
+.primero,.segundo{
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-.segundo{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-.primero img{
+.primero img,.segundo img{
     height: 200px;
     width: auto;
     filter: grayscale(100%)blur(2px);
 }
-.segundo img{
-    height: 200px;
-    width: auto;
-    filter: grayscale(100%)blur(2px);
-}
-.primero img:hover{
+.primero img:hover,.segundo img:hover{
     transform: scale(1.1);
     filter: grayscale(0%);
     transition: filter 0.5s ease;
-}
-.segundo img:hover{
-    transform: scale(1.1);
-    filter: grayscale(0%);
-    transition: filter 0.5s ease;
-}
-#CONTACTO{
-    color: white;
-    font-weight: 400;
-    font-size: 2em;
-    background-color: rgb(247, 95, 95);
 }
 .contactanos{
-    color: white;
-    font-weight: 400;
-    font-size: 2em;
     background-color: rgb(247, 95, 95);
     border-radius: 5px 5px 0 0;
 }
