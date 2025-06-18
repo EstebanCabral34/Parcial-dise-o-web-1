@@ -19,16 +19,23 @@ h2{
     font-weight: 400;
     font-size: 2em;
 }
+
+/* ===================== */
+/* Header y Navbar       */
+/* ===================== */
+
 .navbar{
     display: flex;
     align-items: center;
     background-color: black;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 header{
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .redes{
     display: flex;
@@ -62,6 +69,11 @@ header{
     width: 150px;
    height: 35px;
 }
+
+/* ===================== */
+/* Banner y Video        */
+/* ===================== */
+
 .banner{
     display: grid;
     place-items: center;
@@ -75,6 +87,11 @@ header{
     display: grid;
     place-items: center;
 }
+
+/* ===================== */
+/* Seccion de fechas     */
+/* ===================== */
+
 .fechas{
     display: flex;
     gap: 20px;
@@ -117,6 +134,11 @@ header{
     height: 100px;
     font-weight: bold;
 }
+
+/* ====================== */
+/* Seccion de bibliografia*/
+/* ====================== */
+
 #BIBLIOGRAFIA,#CONTACTO{
     background-color: rgb(247, 95, 95);
 }
@@ -141,6 +163,11 @@ header{
 .texto strong{
     color:  rgb(247, 95, 95);
 }
+
+/* ===================== */
+/* Seccion de discografia*/
+/* ===================== */
+
 #DISCOGRAFIA{
     background-color: black;
 }
@@ -163,6 +190,11 @@ header{
     filter: grayscale(0%);
     transition: filter 0.5s ease;
 }
+
+/* =================== */
+/* Seccion de contactos*/
+/* =================== */
+
 .contactanos{
     background-color: rgb(247, 95, 95);
     border-radius: 5px 5px 0 0;
@@ -171,7 +203,7 @@ header{
     height: 560px;
     width: auto;
     background-color: rgb(247, 95, 95);
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
 .con-contacto{
     background-color: black;
@@ -232,7 +264,42 @@ input{
       button:hover{
         transform: scale(1.1);
       }
-/* Para celulares (hasta 600px) */
+
+/* ==================== */
+/* Pagina de formularios*/
+/* ==================== */
+
+.cont-msj{
+  display: block;
+  margin: 10%;
+  border-style: solid;
+  border-color: rgb(247, 95, 95);
+  border-radius: 10px;
+}
+.aceptar{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 2em;
+  background-color: rgb(247, 95, 95);
+}
+ .msj{
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+ }
+
+ .cont-msj a:hover{
+  color: black;
+ }
+
+
+/* ==================================== */
+/* Media query para dispositivos moviles*/
+/* ==================================== */
+
 @media (max-width: 600px) {
   html,body {
     padding: 0;
@@ -282,7 +349,7 @@ input{
   }
   .con-discografia {
   display: flex;
-  justify-content: center; /* centra la grilla dentro del contenedor */
+  justify-content: center;
 }
   .primero,
   .segundo {
@@ -306,4 +373,9 @@ input{
   .banner img {
     display: none;
   }
+
+  .contactos{
+    padding: 0;
+  }
+
 }
